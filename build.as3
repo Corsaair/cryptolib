@@ -1,0 +1,11 @@
+import redbean.*;
+import shell.FileSystem;
+
+compile( "src/cryptolib.as" );
+
+if( FileSystem.exists( "cryptolib.abc" ) )
+{
+	FileSystem.removeFile( "cryptolib.abc" );
+}
+
+FileSystem.move( "src/cryptolib.abc", "cryptolib.abc" );
