@@ -1,0 +1,29 @@
+#!/usr/bin/as3shebang -- 
+
+import shell.*;
+
+var cryptolib:* = Domain.currentDomain.load( "cryptolib.abc" );
+trace( cryptolib + " loaded" );
+
+import flash.utils.ByteArray;
+import crypto.hash.*;
+
+/*
+function uintToHex( n:uint ):String
+{
+    var hex:String = n.toString( 16 );
+    if( hex.length%2 != 0 ) { hex = "0" + hex; }
+    return hex;
+}
+*/
+
+trace( "different crypto hash of \"hello world\"" );
+
+var str:String = "hello world";
+
+
+// Cryptographic hash functions
+trace( " md5 = " + md5( str ) );
+
+//TODO
+
