@@ -1,0 +1,29 @@
+<overviews>
+	<all-packages>
+		<description><![CDATA[
+			The &lt;b&gt;Cryptography&lt;/b&gt; library.&lt;br&gt;
+			&lt;br&gt;
+			...
+			&lt;br&gt;
+			&lt;br&gt;
+			&lt;a href="https://github.com/Corsaair/cryptolib/wiki" target="_blank"&gt;Wiki Documentation&lt;/a&gt;
+		]]></description>
+	</all-packages>
+	<packages>
+
+		<package name="crypto" >
+			<shortDescription><![CDATA[The cryptography library.]]></shortDescription>
+			<description><![CDATA[
+				For now only the very basic.
+			]]></description>
+		</package>
+
+		<package name="crypto.hash" >
+			<shortDescription><![CDATA[Cryptographic hashing.]]></shortDescription>
+			<description><![CDATA[
+				Only MD5 for now.
+			]]></description>
+		</package>
+
+	</packages>
+</overviews>
